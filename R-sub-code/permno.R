@@ -1,5 +1,4 @@
-setwd("/Users/mecakao/Desktop") #change working directory to save file
-stats <- read.csv("/Users/mecakao/Desktop/test.csv") #copy file path into " "
+stats <- read.csv("test.csv") #copy file path into " "
 ticker <- stats[,2]
 work <- stats[,3]
 
