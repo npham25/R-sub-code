@@ -1,0 +1,6 @@
+#setwd('/Users/NganPham/OneDrive - The University of Memphis/DNAm')
+library(sas7bdat)
+#gene_contents <- read.sas7bdat('gene_161_june1_contents.sas7bdat')
+#write.csv(gene_contents, 'gene_161_june1_contents.csv')
+ge_161_1june <- read.sas7bdat('ge_161_1june.sas7bdat')
+save(ge_161_1june, 'ge_161_1june.Rdata')
